@@ -1,0 +1,2 @@
+Processing Images:   0%|          | 0/1000 [00:00<?, ?image/s]Processing Images:   3%|▎         | 32/1000 [00:41<20:54,  1.30s/image]/var/spool/slurmd/job4604668/slurm_script: line 22: 2501338 Killed                  python Getting_Main_Model_Logits.py /deac/csc/classes/csc373/passta23/model_distillation/imagenet-sample-images-master /deac/csc/classes/csc373/passta23/model_distillation/Results/Main_Model_Outputs 32
+slurmstepd: error: Detected 1 oom_kill event in StepId=4604668.batch. Some of the step tasks have been OOM Killed.
