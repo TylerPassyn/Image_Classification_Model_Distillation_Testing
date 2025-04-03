@@ -1,0 +1,20 @@
+#########################BEGIN-PROLOG#########################
+JobName   = csc373-DM
+Account   = csc373
+NodeList  = cpu-intel-63
+Resources = cpu=4,mem=16G,node=1,billing=4
+WorkDir   = /deac/csc/classes/csc373/passta23/model_distillation/Slurm
+###########################END-PROLOG#########################
+Loading /deac/csc/classes/csc373/software/modulefiles/csc373/python/3.11.8
+  Loading requirement: compilers/gcc/12.3.0 apps/python/3.11.8
+Num_classes 1000
+Train_logits (800, 1000)
+Test_logits (200, 1000)
+Epoch [1/5], Loss: 1.8419
+Epoch [2/5], Loss: 1.8190
+Epoch [3/5], Loss: 1.8134
+Epoch [4/5], Loss: 1.8122
+Epoch [5/5], Loss: 1.7973
+Distillation complete.
+Model saved to distilled_model
+Model loaded from distilled_model

@@ -1,0 +1,17 @@
+#########################BEGIN-PROLOG#########################
+JobName   = csc373-DM
+Account   = csc373
+NodeList  = cpu-intel-63
+Resources = cpu=4,mem=16G,node=1,billing=4
+WorkDir   = /deac/csc/classes/csc373/passta23/model_distillation/Slurm
+###########################END-PROLOG#########################
+Loading /deac/csc/classes/csc373/software/modulefiles/csc373/python/3.11.8
+  Loading requirement: compilers/gcc/12.3.0 apps/python/3.11.8
+Loading model.....
+Model loaded successfully!
+Loading feature extractor...
+Feature extractor loaded successfully!
+Average inference time per image: 1.196914611339569 seconds
+Model size (in parameters): 304326632
+Model size (in MB): 304.326632
+Total inference time for all images: 1196.914611339569 seconds
