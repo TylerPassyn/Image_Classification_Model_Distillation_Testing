@@ -27,7 +27,7 @@ model_path = '/deac/csc/classes/csc373/passta23/model_distillation/distilled_mod
 
 model = ViTForImageClassification.from_pretrained(model_path, from_tf=False, config=model_path)
 
-print("Model loaded")
+print("Model loaded") 
 
 
 
